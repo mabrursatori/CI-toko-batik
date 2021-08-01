@@ -1,0 +1,102 @@
+/*!
+ * Start Bootstrap - Shop Homepage (https://startbootstrap.com/template/shop-homepage)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-shop-homepage/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+
+.img-landing{
+  width: 100%;
+  height: 430px;
+  object-fit: cover;
+}
+.img-item{
+  width: 100%;
+  height: 330px;
+  object-fit: cover;
+}
+.card-body-item{
+  padding: 10px;
+}
+.title-item {
+  margin-top: -5px;
+  margin-bottom: 0;
+  color: black;
+  height: 35px;
+  overflow: hidden;
+}
+
+.title-item > a{
+  color: black;
+}
+.title-item>a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.price{
+  color: #76C48E;
+}
+
+.star{
+  color: #F7F48B;
+}
+
+.popnew-icon{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 100px;
+}
+
+.frontend{
+  min-height: 100vh;
+}
+
+
+
+@media only screen and (max-width: 500px) {
+  .col-footer{
+    margin-bottom: 30px;
+  }
+}
+
+
+
+nav{
+  background-color:#311206;
+}
+
+footer{
+  background-color: #311206;
+}
+
+.text-footer > p{
+  margin-bottom: 0;
+  font-size: 12px;
+  color: white;
+}
+
+.text-footer:hover{
+  text-decoration: none;
+}
+
+.row-footer{
+  margin-bottom: 30px;
+}
+
+.bg-dropdown{
+  background-color: #311206;
+}
+
+.card-hor{
+  padding-bottom: 0;
+}
+
+.btn-logout{
+  background-color: red;
+}
+
+

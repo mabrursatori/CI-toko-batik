@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Shop Homepage - Start Bootstrap Template</title>
+<!-- Javascript -->
+	<script type="text/javascript">
+	var loadFile = function(event) {
+	var output = document.getElementById('output');
+	output.src = URL.createObjectURL(event.target.files[0]);
+	};
+  </script>
+  <!-- Ck4Editor -->
+  <script type="text/javascript" src="ckeditor/ckeditor.js"></script>
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/shop-homepage.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Start Bootstrap</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">User
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Batik
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Motif
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Kain
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Toko
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Artikel
+            </a>
+          </li>
+           <li class="nav-item active">
+            <a class="nav-link" href="#">Gambar
+            </a>
+          </li>
+          <li class="nav-item active btn-logout">
+            <a class="nav-link" href="#">Logout
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container frontend mb-1" >
+    <div class="row mt-3">
+      <div class="col-md-6">
+        <h1>Batik</h1>
+      </div>
+    </div>
+    <form action="">
+    <div class="row mt-3" >
+      
+      <div class="col-md-4">
+<div class="custom-file">
+  <input type="file" accept="image/*" onchange="loadFile(event)" class="custom-file-input" id="customFile">
+  <label class="custom-file-label" for="customFile">Choose file</label>
+</div>
+<img src="images/default-image.jpg" id="output" class="rounded mt-2" alt="..." style="width: 350px;">
+      </div>
+      <div class="col-md-8">
+        
+          <div class="form-row">
+    <div class="form-group col-md-12">
+      <label for="inputEmail4">Nama</label>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Kain</label>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Motif</label>
+      <select name="motif[]" multiple id="motif" class="form-control"></select>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Harga Beli</label>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Harga Jual</label>
+      <input type="password" class="form-control" id="inputPassword4">
+    </div>
+  </div>
+        <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Shopee</label>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Tokopedia</label>
+      <input type="password" class="form-control" id="inputPassword4">
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Bukalapak</label>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Ukuran</label>
+      <input type="password" class="form-control" id="inputPassword4">
+    </div>
+  </div>
+  
+    <div class="form-group">
+    <label for="exampleFormControlTextarea1">Example textarea</label>
+    <textarea class="form-control ckeditor" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+  <div class="form-row text-right">
+    <div class="col-md-12">
+<button href="" type="submit" class="btn btn-primary">Simpan</button>
+    </div>
+    
+  </div>
+      </div>  
+     
+    </div>
+</form>
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; <a href="http://mabrur.epizy.com" target="_blank">Mabrur</a> 2020</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+<script>
+    $('#motif').select2({
+        ajax: {
+            url: 'http://127.0.0.1:8000/admin/ajax/categories/search',
+            processResults: function(data) {
+                return {
+                    results: data.map(function(item) {
+                        return {
+                            id: item.id,
+                            text: item.name
+                        }
+                    })
+                }
+            }
+        }
+    });
+</script>
+</body>
+
+</html>
